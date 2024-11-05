@@ -1,0 +1,8 @@
+.nav {
+  box-shadow: 0px 1px 6px 0px rgba(124, 132, 150, 0.516);
+  @media (max-width: 575px) {
+    .sendBtn {
+      font-size: 10px !important;
+    }
+  }
+}

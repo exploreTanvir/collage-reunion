@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+}
+body {
+  background-color: rgb(231, 254, 254) !important;
+}
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+li {
+  list-style: none;
+}
