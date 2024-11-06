@@ -12,17 +12,19 @@ const Home = () => {
  
  <div className='container-fluid nav'>
       <div className="container py-2">
-      <div className='d-flex justify-content-between align-items-center'>
-        <div className="row align-items-center">
+      <div className=' d-flex justify-content-between align-items-center'>
+       <div className="col-lg-4">
+       <div className="row align-items-center">
         <div className='col-lg-3'>
-          <img className='w-75' src={logo}/>
+          <img className='logo' src={logo}/>
           
         </div>
-        <div className="col-lg-8 d-flex flex-column justify-content-center"> 
+        <div className="navData col-lg-9 d-flex flex-column justify-content-center"> 
             <h4>হাজীপুর সম্মিলনী ডিগ্রি কলেজ </h4>
             <p>মাগুরা সদর, মাগুরা</p>
           </div>
         </div>
+       </div>
         
         <div className='col-lg-2'>
         <div className="text-center text-lg-start">

@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import img1 from "../../assets/2019-05-02.jpg";
 import imgs2 from "../../assets/anyrgb.com-removebg-preview.png";
-import img2 from "../../assets/d.jpg";
 import imgs1 from "../../assets/img1.png";
+import img2 from "../../assets/Yellow and Black Simple Save Date Instagram Story.jpg";
 import "./destination.css";
 
 
 
 const DestinationData = (props) => {
   const calculateTimeLeft = () => {
-    const difference = new Date("2024-12-31T23:59:59") - new Date();
+    const difference = new Date("2024-12-12T23:59:59") - new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -37,7 +37,7 @@ const DestinationData = (props) => {
   }, [props.endDate]);
 
   return (
-    <div className="container">
+    <div className="container py-4">
   
       <div className="firstDestination row align-items-center">
         <div className="destinationText col-lg-6 col-sm-12 mb-4">
@@ -73,7 +73,7 @@ const DestinationData = (props) => {
             
           </div>
         </div>
-        <div className="destinationImg col-lg-6 col-sm-12 text-center">
+        <div className="destinationImg mb-3 col-lg-6 col-sm-12 text-center">
           <img alt="Destination Img" className="animatedImg img-fluid" src={img1} />
           <img alt="Destination Img" className="animatedImgTwo img-fluid mt-3" src={img2} />
         </div>
